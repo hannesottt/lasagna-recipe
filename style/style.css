@@ -1,17 +1,57 @@
 body {
     background-color: #1c2938;
 }
-h1 {
-    color: #cd3f3e;
+h1, h2, h3 {
     width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #ff9c91;
+}
+h3 {
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+h1 {
+    color: #cd3f3e;
     font-weight: 900;
     font-style: italic;
     font-size: 3em;
-    margin-top: 10%;
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: 900;
+    color: #cd3f3e;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 hr {
     border-color: #cd3f3e;
     width: 50%;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td {
+    font-family: 'Roboto', sans-serif;
+    color: #ff9c91;
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid #cd3f3e;
+    padding: 5px;
+}
+.line {
+    border-right: 1px solid #cd3f3e;
+}
+.amount {
+    width: 125px;
+}
+.ingred {
+    width: 158px;
 }
