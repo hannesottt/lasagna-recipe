@@ -18,7 +18,7 @@ a {
 }
 h3 {
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 h1 {
     color: #cd3f3e;
@@ -37,6 +37,7 @@ h2 {
 hr {
     border-color: #cd3f3e;
     width: 60%;
+    margin-top: 25px;
 }
 table {
     margin-left: auto;
@@ -60,4 +61,16 @@ th, td {
 }
 .ingred {
     width: 158px;
+}
+ol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+li {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff9c91;
+    margin-bottom: 20px;
 }
