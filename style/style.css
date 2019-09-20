@@ -67,6 +67,7 @@ ol {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    min-width: 300px;
 }
 li {
     text-align: center;
